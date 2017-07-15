@@ -1,0 +1,45 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "glitch-gatsbyjs-starter-blog",
+  "version": "0.0.1",
+  "description": "will gatsby-starter-blog work on glitch?",
+  "scripts": {
+    "start": "gatsby develop -p $PORT"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },  
+  "proxy": "https://gatsby-starter-blog.glitch.me",  
+  "dependencies": {
+    "gatsby": "^1.1.0",
+    "gatsby-link": "^1.0.0",
+    "gatsby-plugin-manifest": "^1.0.0",
+    "gatsby-plugin-offline": "^1.0.0",
+    "gatsby-plugin-preact": "^1.0.0",
+    "gatsby-plugin-react-helmet": "^1.0.0",
+    "gatsby-remark-prismjs": "^1.0.0",
+    "gatsby-remark-responsive-iframe": "^1.0.0",
+    "gatsby-remark-smartypants": "^1.0.0",
+    "gatsby-source-filesystem": "^1.0.0",
+    "gatsby-transformer-remark": "^1.0.0",
+    "lodash": "^4.15.0",
+    "react-responsive-grid": "^0.3.3",
+    "react-typography": "^0.15.0",
+    "typeface-merriweather": "^0.0.25",
+    "typeface-montserrat": "^0.0.24",    
+    "typography": "^0.15.8",
+    "typography-theme-wordpress-2016": "^0.15.1"
+  },
+  "repository": {
+    "url": "https://github.com/gatsbyjs/gatsby-starter-blog"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
