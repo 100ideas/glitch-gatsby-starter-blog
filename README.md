@@ -2,13 +2,14 @@ glitch-gatsby-starter-blog
 ==========================
 
 [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog) boilerplate running on glitch.com. 
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/gatsby-starter-blog)
 
 - visit demo: https://gatsby-starter-blog.glitch.me
 - look at source: https://glitch.com/edit/#!/gatsby-starter-blog
-- make some changes: [remix on glitch](https://glitch.com/edit/#!/remix/gatsby-starter-blog) to get your own temporary, anonymous live copy of the app
-  
-- **To enable HMR**: glitch by default restarts & reloads the app server on code edits. This prevents webpack Hot Module Replacement from working. To fix:
+- [remix on glitch](https://glitch.com/edit/#!/remix/gatsby-starter-blog) to get your own temporary, anonymous live copy of the app
+
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/gatsby-starter-blog)
+
+**To enable HMR**: glitch by default restarts & reloads the app server on code edits. This prevents webpack Hot Module Replacement from working. To fix:
   - If you are "remixing" anonymously, open the URL of your running app in a new browser tab. DON'T use the "Show Live" button in the editor.
   - If you have an account, click circular user icon in upper-right of window > turn off "Refresh App on Changes".
 
