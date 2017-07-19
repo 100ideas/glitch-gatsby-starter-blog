@@ -12,6 +12,7 @@ glitch-gatsby-starter-blog
 - visit demo: https://gatsby-starter-blog.glitch.me
 - look at source: https://glitch.com/edit/#!/gatsby-starter-blog
 - [remix on glitch](https://glitch.com/edit/#!/remix/gatsby-starter-blog) to get your own temporary, anonymous live copy of the app
+- fork repo: https://github.com/100ideas/glitch-gatsby-starter-blog
 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b/remix-button.svg)](https://glitch.com/edit/#!/remix/gatsby-starter-blog)
 
