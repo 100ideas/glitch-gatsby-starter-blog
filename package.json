@@ -2,21 +2,23 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-
+  "//4": "prestart script is hack to deal with getting env vars through webpack",
+  
   "name": "glitch-gatsbyjs-starter-blog",
   "version": "0.0.1",
   "description": "will gatsby-starter-blog work on glitch?",
   "scripts": {
-    "start": "gatsby develop -p $PORT"
+    "prestart": "echo \"GLITCH_URL=$PROJECT_DOMAIN.glitch.me\" > /app/.env.development",
+    "start": "npm run prestart && gatsby develop -p $PORT"
   },
   "engines": {
     "node": "8.1.x"
-  },  
-  "proxy": "https://gatsby-starter-blog.glitch.me",  
+  },
+  "proxy": "https://gatsby-starter-blog.glitch.me",
   "dependencies": {
-    "gatsby": "^1.1.0",
+    "gatsby": "^1.3.0",
     "gatsby-link": "^1.0.0",
-    "gatsby-plugin-manifest": "^1.0.0",
+    "gatsby-plugin-manifest": "^1.0.1",
     "gatsby-plugin-offline": "^1.0.0",
     "gatsby-plugin-preact": "^1.0.0",
     "gatsby-plugin-react-helmet": "^1.0.0",
@@ -29,7 +31,7 @@
     "react-responsive-grid": "^0.3.3",
     "react-typography": "^0.15.0",
     "typeface-merriweather": "^0.0.25",
-    "typeface-montserrat": "^0.0.24",    
+    "typeface-montserrat": "^0.0.24",
     "typography": "^0.15.8",
     "typography-theme-wordpress-2016": "^0.15.1"
   },

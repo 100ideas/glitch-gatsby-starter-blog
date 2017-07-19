@@ -8,7 +8,7 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
   if (stage === `develop`) {
     config._config.entry.commons[1] = `/app/node_modules/webpack-hot-middleware/client?path=https://${process.env.PROJECT_DOMAIN}.glitch.me/__webpack_hmr&reload=true`
     config._config.output.publicPath = `https://${process.env.PROJECT_DOMAIN}.glitch.me/`
-    // console.dir(program, {depth: 3})
+    // console.dir(program, {depth: 3}) 
   }
   return config
 }

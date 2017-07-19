@@ -1,0 +1,18 @@
+# glitch.com 
+.config/
+.jspm/
+
+# gatsby
+public/
+node_modules/
+.gatsby-context.js
+.cache
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed

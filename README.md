@@ -72,6 +72,7 @@ for getting images etc stored in the `assets` folder, I guess we need a `gatsby-
 ### Changelog
 
 **17-7-18**:
+
 - Consolidate content from github.com/gatsbyjs/gatsby/issues/1515 into README.
 - Add entry to https://github.com/gatsbyjs/gatsby/edit/master/docs/docs/gatsby-starters.md
 
