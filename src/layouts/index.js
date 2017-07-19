@@ -8,6 +8,7 @@ class Template extends React.Component {
   render() {
     const { location, children } = this.props
     let header, footer
+    let pENV = process.env
     if (location.pathname === "/") {
       header = (
         <h1
@@ -30,7 +31,10 @@ class Template extends React.Component {
         </h1>
       )
       footer = (
-        <footer>
+        <footer style={{textAlign: "center"}}>
+          <a href={`https://${process.env.GLITCH_URL}/___graphql`}>
+            graphql console
+          </a>
           <img src="https://cdn.glitch.com/bdfc8122-4cab-49af-be19-8cdb52c71a6e%2Fgatsbyjs-gatsby-issues-1172-figma.png?1500107147123" />
         </footer>
       )
