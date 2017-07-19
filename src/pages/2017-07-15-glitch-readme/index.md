@@ -5,7 +5,7 @@ path: "/glitch-readme/"
 ---
 
 glitch-gatsby-starter-blog
-==========================
+--------------------------
 
 [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog) boilerplate running on glitch.com. 
 
@@ -13,7 +13,7 @@ glitch-gatsby-starter-blog
 - look at source: https://glitch.com/edit/#!/gatsby-starter-blog
 - [remix on glitch](https://glitch.com/edit/#!/remix/gatsby-starter-blog) to get your own temporary, anonymous live copy of the app
 
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/gatsby-starter-blog)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b/remix-button.svg)](https://glitch.com/edit/#!/remix/gatsby-starter-blog)
 
 #### Enabling HMR
 glitch by default restarts & reloads the app server on code edits. This prevents webpack Hot Module Replacement from working. To fix:
